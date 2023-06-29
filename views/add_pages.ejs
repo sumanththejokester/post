@@ -1,0 +1,34 @@
+<%- include('layout/header') %>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 mx-auto mt-4">
+                <div class="card shadow">
+                    <div class="card-header bg-dark">
+                        <h3 class="text-light">Add New Post</h3>
+                    </div>
+                    <div class="card-body p-4">
+                        <form action="/post/create/new" method="post" id="add-form" enctype="multipart/
+    form-data">
+                            <div class="mb-3">
+                                <label for="title">Title</label>
+                                <input type="text" name="title" class="form-control form-control-lg"
+                                    placeholder="Enter title" required />
+                            </div>
+                            <div class="mb-3">
+                                <label for="description">Description</label>
+                                <textarea name="description" class="form-control form-control-lg"
+                                    placeholder="Enter description" rows="4" required></textarea>
+                            </div>
+
+                            <div class="mb-3 d-grid">
+                                <input type="submit" name="submit" value="Add Details" class="btn
+        btn-primary btn-lg bg-dark" />
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <%- include('layout/footer') %>
