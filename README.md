@@ -1,4 +1,4 @@
 # post 
 # React Project 
 # EJS Framework
-Deployed at https://good-red-bat-hose.cyclic.app/
+Deployed at https://wild-flannel-shirt-toad.cyclic.app
